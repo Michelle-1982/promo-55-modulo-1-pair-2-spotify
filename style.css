@@ -1,25 +1,49 @@
-.container{
-    background-color: black;
-    display: flex;
-    justify-content: space-between; 
-    padding: 20px;
-}
-.cuerpo{
-  background-color: cornflowerblue; 
-}
-
-h1{
-    margin-top: 0;
-}
-.image-container{
-    width:150px;
-    height:50px;
-}
-
 .logo {
     width:150px;
     height:50px;
 }
 .hamburguer{
     width: 50px;    
+}
+.image-container{
+    width:150px;
+    height:50px;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+.cuerpo{
+  background-color: cornflowerblue; 
+ 
+  
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(76, 204, 76);
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+h1{
+    margin-top: 0;
+    color: white;
+       l
+  
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+h6{
+    color: white;
 }
