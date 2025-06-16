@@ -34,6 +34,9 @@ button{
     font-size: 10px; 
     width: 100%;
     padding: 7px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-right: 20px;
        
     
    
@@ -60,5 +63,11 @@ p{
 }
 
 h6{
+    
     color: white;
+    padding-bottom:  30px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+}
 }
