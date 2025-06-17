@@ -37,8 +37,9 @@ button{
     font-size: 10px; 
     width: 100%;
     padding: 7px;
-    margin-left: 20px;
-    
+    margin-left: 10px;
+    margin-right: 20px;
+
  
    
 }
@@ -70,8 +71,23 @@ h6{
 }
 
 .container{
+    
+    background-color: white;
     text-align: center;
+    padding: 30px;
+    flex-direction: row;
+  
 }
+.image-1{
+    max-width: 100px ;
+}
+
+.image-container.1{
+    display: flex;
+    
+    
+ }   
+
 @media(min-width:736px)
 .links{
     display:flex;
