@@ -1,6 +1,5 @@
-body{
+    body{
 margin: 0;
-
 }
 
 .logo {
@@ -22,11 +21,16 @@ margin: 0;
     justify-content: space-between; 
     padding: 20px;  
 }
+.nav{
+    display: none;
+}
 
-
-.cuerpo{
+.background{
   background-color: cornflowerblue; 
-  margin:0                    
+                
+}
+.text{
+    color: white;
 }
 
 button{
@@ -35,17 +39,14 @@ button{
     border: none;
     color: white;   
     font-size: 10px; 
-    width: 100%;
+    width: 95%;
     padding: 7px;
     margin-left: 10px;
-    margin-right: 20px;
-
- 
-   
+    
 }
 
 h1{
-    margin-top: 0;
+    margin-top: 0;   
     color: white;
     padding-top: 50px;
     padding-left: 10px;
@@ -57,36 +58,88 @@ h2{
     
 }
 
-
 h3{
     color: white;
     padding-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
 
 h6{
         color: white;
         padding: 20px;
         padding-left: 10px;
-}
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+
 
 .container{
-    
     background-color: white;
-    text-align: center;
-    padding: 30px;
-    flex-direction: row;
-  
-}
-.image-1{
-    max-width: 100px ;
 }
 
-.image-container.1{
-    display: flex;
+ .text-container{
+    font-size: 20px;
+    align-items: center;
+   
+ }   
+   
+
+.image-container-1{
     
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+ 
     
  }   
+
+ .text-image-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    align-content: flex-start;
+
+ }
+
+.image-1{
+    max-width: 100px ;}
+
+.image-container-2{
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+   
+}    
+.image-container-3{
+  
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+
+}
+.image-container-4{
+      
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.image-2{
+    max-width: 100px ;}
+
+ 
+.image-3{
+    max-width: 100px ;}   
+
+
+.image-4{
+    max-width: 100px ;}
+    
+
 
 @media(min-width:736px)
 .links{
@@ -96,4 +149,4 @@ h6{
 
 }
 
-    
+
